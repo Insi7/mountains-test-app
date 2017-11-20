@@ -45,7 +45,8 @@ module.exports = {
     new webpack.ProvidePlugin({
       jQuery: 'jquery',
       $: 'jquery',
-      jquery: 'jquery'
+      jquery: 'jquery',
+      Popper: ['popper.js', 'default']
     }),
     // Workaround for angular/angular#11580
     new webpack.ContextReplacementPlugin(

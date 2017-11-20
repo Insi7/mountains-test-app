@@ -1,10 +1,3 @@
 <app-page-title title="Some mountains"></app-page-title>
-<div class="container">
-  <ul>
-    <li *ngFor="let mountain of mountains">
-      {{mountain.name}}: {{mountain.height}}
-    </li>
-  </ul>
-</div>
-
-
+<app-page-nav></app-page-nav>
+<router-outlet></router-outlet>
